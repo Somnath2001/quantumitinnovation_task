@@ -1,0 +1,31 @@
+.footer-text {
+  padding: 10px 20px;
+  gap: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 600px;
+  max-width: 100%;
+}
+.footer-text p:first-child {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #545454;
+}
+.footer-text p > span {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  text-decoration-line: underline;
+  color: #3766e8;
+  cursor: pointer;
+}
+.footer-text p:last-child {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #545454;
+  cursor: pointer;
+}

@@ -1,0 +1,7 @@
+.main_Layout {
+  padding: 50px;
+}
+.head_text {
+  display: flex;
+  justify-content: space-between;
+}
